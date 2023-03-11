@@ -1,6 +1,6 @@
-(SOM) in Python using the MiniSom library:
+# (SOM) in Python using the MiniSom library:
 
-
+'''
 In this example, we first generate some random input data with 5 features. 
 We then initialize a 10x10 SOM using the MiniSom library, and train it on the input data for 100 iterations.
 
@@ -13,8 +13,8 @@ We first determine the winning node (i.e., the node with the closest weight)
 for each data point using the winner function of the SOM, and then plot the markers at the corresponding node coordinates.
 
 
-
-CODE
+'''
+# CODE
 
 import numpy as np
 from minisom import MiniSom
