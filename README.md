@@ -13,7 +13,7 @@ each input is presented to the network, and the node with the most similar weigh
 The weights of the winning node, and the nodes surrounding it, are then updated to better match the input.
 This process is repeated many times until the map stabilizes, and the nodes converge to represent clusters of similar input data.
 
-Once the SOM is trained, it can be used for a variety of tasks such as data visualization, data compression, and data clustering. 
+Once the SOM is trained, it can be used for various tasks such as data visualization, data compression, and data clustering. 
 For example, the SOM can be used to visualize high-dimensional data by projecting it onto a two-dimensional map, where similar data points are clustered together. 
 Alternatively, the SOM can be used to compress high-dimensional data by encoding it as the weights of the nodes in the map. Finally, 
 the SOM can be used for data clustering by assigning each input data point to the node in the map with the most similar weight.
